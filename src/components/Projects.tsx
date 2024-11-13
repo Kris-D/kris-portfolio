@@ -8,15 +8,15 @@ const projects = [
     description: 'This is an innovative platform in the renewable energy sector, focusing on providing sustainable power solutions. They offer energy solutions designed to improve efficiency, reduce environmental impact, and meet the growing need for reliable electricity.',
     image: 'https://i.postimg.cc/nr3MDftC/Screenshot-842.png',
     technologies: ['React', 'Chakra UI', 'React Query', 'Axios','Formik'],
-    liveDemo: 'https://altpower.ng/',
-    sourceCode: 'https://altpower.ng/'
+    liveDemo: 'https://altpower.ng',
+    sourceCode: 'https://altpower.ng'
   },
   {
     title: 'SterlingFlock',
     description: 'A social media platform that brings together design elements and features inspired by modern digital communication and engagement. The project is likely focused on creating an interactive and user-friendly space where users can engage with posts, messages, notifications, and friend requests',
     image: 'https://i.postimg.cc/SKLDWn2j/Screenshot-840.png',
     technologies: ['HTML', 'Vainilla CSS', 'JavaScript', ],
-    liveDemo: 'https://social.example.com',
+    liveDemo: 'https://sterling-flock.vercel.app',
     sourceCode: 'https://github.com/Kris-D/SterlingFlock'
   },
   {
@@ -24,7 +24,7 @@ const projects = [
     description: 'This is a React-based project for browsing, listing, and categorizing video games, built using a modern JavaScript framework with various libraries and APIs for data fetching and state management. The app integrates with the RAWG.io API, which provides data on games, genres, and other relevant game-related information.',
     image: 'https://i.postimg.cc/c1Qm8g33/Screenshot-841.png',
     technologies: ['React', 'Tailwind CSS', 'React Query', 'Axios'],
-    liveDemo: 'https://tasks.example.com',
+    liveDemo: 'https://gamelist-chi.vercel.app',
     sourceCode: 'https://github.com/Kris-D/Gamelist'
   }
 ];
