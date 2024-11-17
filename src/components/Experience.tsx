@@ -5,13 +5,13 @@ import { Briefcase } from 'lucide-react';
 const experiences = [
   {
     title: 'Software Engineer(Frontend)',
-    company: 'Uridium technologies ltd(Alternative Bank)',
+    company: 'Uridium technologies ltd(The Alternative Bank)',
     period: '2024 - Present',
     description: 'developing and maintaining front-end for enterprise web applications, focusing on React and TypeScript. Improving the user experience by implementing new features and improving the performance of the application.'
   },
   {
     title: 'Frontend Developer',
-    company: 'Whytecleon plc(Alternative Bank)',
+    company: 'Whytecleon plc(The Alternative Bank)',
     period: '2022 - 2023',
     description: 'Designed and developed user interfaces for various clients, creating responsive and accessible web applications using React and TypeScript. Improved the performance of the application by 40%.'
   },
