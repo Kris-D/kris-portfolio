@@ -7,6 +7,9 @@ export default {
       fontFamily: {
         sans: ['Inter var', 'sans-serif'],
       },
+      screens: {
+        'xs': '383px',
+      },
       typography: {
         DEFAULT: {
           css: {

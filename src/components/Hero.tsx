@@ -75,7 +75,7 @@ export const Hero: React.FC<HeroProps> = ({ onHireMe }) => {
               onClick={onHireMe}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-6 py-3 bg-indigo-500 text-white rounded-full flex items-center gap-2 hover:bg-indigo-600 transition-colors"
+              className="px-4 sm:px-6 py-2.5 sm:py-3 bg-indigo-500 text-white rounded-full flex items-center justify-center gap-2 hover:bg-indigo-600 transition-colors text-sm sm:text-base"
             >
               <Send className="w-4 h-4" /> Hire Me
             </motion.button>
@@ -83,7 +83,7 @@ export const Hero: React.FC<HeroProps> = ({ onHireMe }) => {
               onClick={handleDownloadCV}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-6 py-3 border-2 border-indigo-500 text-indigo-500 dark:text-indigo-400 rounded-full flex items-center gap-2 hover:bg-indigo-500/10 transition-colors"
+              className="px-4 sm:px-6 py-2.5 sm:py-3 border-2 border-indigo-500 text-indigo-500 dark:text-indigo-400 rounded-full flex items-center justify-center gap-2 hover:bg-indigo-500/10 transition-colors text-sm sm:text-base"
             >
               <Download className="w-4 h-4" /> Download Resume
             </motion.button>
@@ -101,7 +101,7 @@ export const Hero: React.FC<HeroProps> = ({ onHireMe }) => {
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 rounded-full bg-gray-100 dark:bg-neutral-800 text-gray-600 dark:text-gray-300 hover:bg-indigo-500 hover:text-white dark:hover:bg-indigo-500 transition-colors"
+                className="p-2.5 rounded-full bg-gray-100 dark:bg-neutral-800 text-gray-600 dark:text-gray-300 hover:bg-indigo-500 hover:text-white dark:hover:bg-indigo-500 transition-colors"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 aria-label={link.label}

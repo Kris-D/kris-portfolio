@@ -36,7 +36,7 @@ export const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete 
         animate={controls}
         exit={{ opacity: 0 }}
       >
-        <div className="relative w-[min(400px,90vw)] h-20">
+        <div className="relative  w-[clamp(280px,90vw,800px)] h-[clamp(80px,20vh,160px)]">
           <svg
             width="100%"
             height="100%"

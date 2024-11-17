@@ -30,7 +30,7 @@ export const AnimatedText: React.FC = () => {
       dominantBaseline="middle"
       textAnchor="middle"
       style={{
-        fontSize: '5rem',
+        fontSize: 'clamp(1.5rem, 8vw, 5rem)',
         fontWeight: 'bold',
         fontFamily: 'Inter var, sans-serif',
       }}
